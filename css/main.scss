@@ -1,0 +1,94 @@
+body{
+    background:whitesmoke;
+    margin: 0;
+    height: 100vh;
+    font-family: monospace;
+}
+
+section.intro{
+    
+    background: url(../img/ab2.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10em;
+    height: calc(100vh - 10em);
+
+    h1{
+        z-index: 1;
+        font-size: 5em;
+        color: white;
+    }
+    
+    .desc{
+        text-align: center;
+        padding-top:10%;
+        z-index: 1;
+    }
+    
+    
+}
+
+section.body{
+    
+    background: url(../img/cassava-farmer_.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10em;
+    height: calc(100vh - 10em);
+
+    h1{
+        z-index: 1;
+        font-size: 5em;
+        color: white;
+        left: 10em;
+        position: absolute;
+    }
+    
+    .box1{
+        text-align: center;
+        padding: 20px;
+        border: 20px solid red;
+        border-radius:20px;
+        position: absolute;
+        height: 100vh;
+        width:50%;
+        z-index: 0;
+        left:15%; 
+        transform:rotateY(65deg);
+    }
+    
+    
+}
+
+section.closure{
+    
+    background: url(../img/cbn-loan.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 10em;
+    height: calc(100vh - 10em);
+
+    h1{
+        z-index: 1;
+        font-size: 5em;
+        color: white;
+        left: 10em;
+        position: absolute;
+    }
+    
+    .box2 {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        z-index: 0;
+        width: 200px;
+        height: 200px;
+        border: 30px solid rgba(255,255,255,.5);
+        overflow: hidden;
+    }
+    
+    
+}
+
+
+
